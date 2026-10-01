@@ -1,0 +1,20 @@
+{
+  "storyboard_id": "video_122_example",
+  "dataset_source": "AI-generated",
+  "shots": [
+    {
+      "shot_id": "shot_001",
+      "sketch": "sketches/shot_001.png",
+      "appearance_prompt": "a fairy with green hair, wearing a green dress with white leaves and a white apron, She has green skin and is holding a bow with a green bowstring, The fairy has pointed ears and is surrounded by green leaves and sparkling light effects, The image has a 2D cartoon frame style, classic 2D cartoon animation frame, clean colored lineart, flat cel-style coloring, solid local colors, minimal shading, background with a lush green forest with sunlight filtering through the leaves, creating a magical atmosphere, preserve the same composition and camera angle, keep the same subject placement, clear local colors, consistent palette, high quality 2D frame look, no extra characters or objects.",
+      "motion_prompt": "In the lush green forest with sunlight filtering through the leaves, casting a magical glow, the main character stands with arms raised, looking upwards, holding a bow. They take a sharp step forward, then twist their torso to aim the bow at something off-screen. With a strong stomp of one foot, they release an arrow, watching it soar into the forest canopy before returning to their original pose.",
+      "source_sample_id": "video_122_keyframe_0001"
+    },
+    {
+      "shot_id": "shot_002",
+      "sketch": "sketches/shot_002.png",
+      "appearance_prompt": "a fairy with green hair, wings, and a dress with green leaves, She is holding a bow and arrow, The fairy has a greenish complexion and is surrounded by a magical aura, The image has a 2D cartoon frame style, classic 2D cartoon animation frame, clean colored lineart, flat cel-style coloring, solid local colors, minimal shading, background with a lush green forest with sunlight filtering through the trees, creating a warm and magical atmosphere, The framing is centered around the fairy, with the sunlight and leaves creating a halo around her, preserve the same composition and camera angle, keep the same subject placement, clear local colors, consistent palette, high quality 2D frame look, no extra characters or objects.",
+      "motion_prompt": "In the lush green forest with sunlight filtering through the trees, casting a warm and magical glow, the main character stands with a bow and arrow, a gentle smile on their face. They take a deep breath, then turn slowly to scan the surroundings. With a quick step forward, they draw the bowstring back, aiming carefully before letting the arrow fly off-screen into the forest. The character watches intently as the arrow vanishes, then leans slightly to one side, feeling the slight recoil from their action. Finally, they release a contented sigh and smile wider, enjoying the peaceful moment in nature.",
+      "source_sample_id": "video_122_keyframe_0002"
+    }
+  ]
+}

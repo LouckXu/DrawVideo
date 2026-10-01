@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drawvideo"
+version = "0.1.0"
+description = "Multi-shot video generation from storyboard keyframe sketches"
+requires-python = ">=3.10"
+dependencies = ["Pillow", "numpy", "opencv-python", "tqdm"]
+
+[project.optional-dependencies]
+evaluation = ["torch", "torchvision", "transformers", "lpips"]
+dataset = ["torch", "transformers", "accelerate"]
+
+[project.scripts]
+drawvideo = "drawvideo.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

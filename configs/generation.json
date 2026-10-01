@@ -1,0 +1,61 @@
+{
+  "structured_prompt_decomposition": {
+    "model": "qwen2.5:7b",
+    "ollama_url": "http://127.0.0.1:11434",
+    "temperature": 0.3,
+    "timeout_seconds": 600
+  },
+  "sketch_coloring": {
+    "models": {
+      "diffusion_model": "FLUX1/flux1-dev-F16.gguf",
+      "text_encoder": "t5/t5-v1_1-xxl-encoder-Q4_K_S.gguf",
+      "clip_encoder": "clip_l.safetensors",
+      "vae": "ae.safetensors",
+      "controlnet": "flux-canny-controlnet-v3.safetensors"
+    },
+    "preprocessing_resolution": 1024,
+    "max_dimension_exclusive": 600,
+    "controlnet_strength": 0.95,
+    "control_start": 0.0,
+    "control_end": 1.0,
+    "steps": 15,
+    "cfg": 7.0,
+    "guidance": 3.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "sgm_uniform",
+    "denoise": 0.8
+  },
+  "derivative_keyframes_generation": {
+    "models": {
+      "diffusion_model": "flux1-dev-kontext_fp8_scaled.safetensors",
+      "text_encoder": "t5/t5xxl_fp16.safetensors",
+      "clip_encoder": "clip_l.safetensors",
+      "vae": "ae.safetensors"
+    },
+    "steps": 20,
+    "cfg": 1.0,
+    "guidance": 2.5,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0
+  },
+  "first_last_frame_video_generation": {
+    "models": {
+      "high_noise_model": "wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors",
+      "low_noise_model": "wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors",
+      "text_encoder": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "vae": "wan_2.1_vae.safetensors"
+    },
+    "steps": 20,
+    "cfg": 4.0,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "shift": 8.0,
+    "high_noise_end_step": 10,
+    "width": 640,
+    "height": 480,
+    "num_frames": 81,
+    "fps": 16,
+    "negative_prompt": "background change, background redraw, camera movement, camera shake, zoom, pan, tilt, perspective change, framing change, composition change, scene cut, shot transition, lighting change, color shift, flicker, jitter, ghosting, motion artifacts, unstable outlines, unstable proportions, identity drift, face drift, facial distortion, deformed anatomy, broken limbs, extra limbs, missing limbs, bad hands, fused fingers, object duplication, extra characters, extra objects, watermark, text, logo, subtitles, static pose, frozen motion, almost no movement, minimal movement, imperceptible motion, stiff motion, rigid body, lifeless animation, weak action, timid motion, incomplete motion, unclear action, unreadable motion, only micro movement, pose not changing, no visible transition between start and end pose"
+  }
+}
