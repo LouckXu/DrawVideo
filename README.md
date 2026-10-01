@@ -8,9 +8,9 @@ Chuanzhi Xu\*, Huiqi Liang\*, Bang Shi, Huiming Zhang, Guangcheng Lin, Yifan Xia
 
 The University of Sydney · Charles Sturt University
 
-\*Equal contribution. Correspondence: [chuanzhi.xu@sydney.edu.au](mailto:chuanzhi.xu@sydney.edu.au)
+\*Equal contribution.
 
-[Paper](https://openreview.net/forum?id=rcejjRnwSK) · [Dataset][sketchlongvideo] · [Setup](docs/setup.md) · [Evaluation](docs/evaluation.md)
+[Paper](https://arxiv.org/abs/2605.23508) · [Dataset][sketchlongvideo] · [Setup](docs/setup.md) · [Evaluation](docs/evaluation.md)
 
 ![DrawVideo overview: storyboard sketches and paired prompts guide multi-shot video generation.](docs/assets/teaser.png)
 
@@ -149,12 +149,14 @@ tests/               Lightweight pipeline and backend contract tests
 ## Citation
 
 ```bibtex
-@inproceedings{xu2026drawvideo,
-  title={DrawVideo: Grounded and Faithful Multi-Shot Video Generation from Storyboard Keyframe Sketches},
-  author={Xu, Chuanzhi and Liang, Huiqi and Shi, Bang and Zhang, Huiming and Lin, Guangcheng and Xiao, Yifan and Chen, Haodong and Qu, Qiang and Lu, Zhicheng and Cai, Weidong},
-  booktitle={NeurIPS 2026 Workshop on Grounded and Faithful Vision-Language Models for Real-World Deployment},
+@misc{xu2026drawvideo,
+  title={DrawVideo: Generating Long Video from Storyboard Keyframe Sketches},
+  author={Xu, Chuanzhi and Liang, Huiqi and Shi, Bang and Zhang, Huiming and Xiao, Yifan and Lin, Guangcheng and Chen, Haodong and Qu, Qiang and Lu, Zhicheng and Cai, Weidong},
   year={2026},
-  url={https://openreview.net/forum?id=rcejjRnwSK}
+  eprint={2605.23508},
+  archivePrefix={arXiv},
+  primaryClass={cs.GR},
+  url={https://arxiv.org/abs/2605.23508}
 }
 ```
 
