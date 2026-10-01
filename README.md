@@ -4,12 +4,6 @@
 
 **NeurIPS 2026 Workshop on Grounded and Faithful Vision-Language Models for Real-World Deployment (VLM4RWD) · Poster**
 
-Chuanzhi Xu\*, Huiqi Liang\*, Bang Shi, Huiming Zhang, Guangcheng Lin, Yifan Xiao, Haodong Chen, Qiang Qu, Zhicheng Lu, Weidong Cai
-
-The University of Sydney · Charles Sturt University
-
-\*Equal contribution.
-
 [Paper](https://arxiv.org/abs/2605.23508) · [Dataset][sketchlongvideo] · [Setup](docs/setup.md) · [Evaluation](docs/evaluation.md)
 
 ![DrawVideo overview: storyboard sketches and paired prompts guide multi-shot video generation.](docs/assets/teaser.png)
